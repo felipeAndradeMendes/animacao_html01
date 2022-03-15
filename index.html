@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREINO</title>
+    <style>
+
+        body{
+            background-color: gray;
+        }
+        .tela{
+            width: 600px;
+            height: 600px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+        }
+        .jogador{
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            position: absolute;         
+        }
+      
+
+    </style>
+</head>
+<body>
+    
+    <div class="tela">
+        <div id="jogador" class="jogador"></div>
+    </div>
+    <button onclick="reload()" id="btnParar">Refresh</button>
+    <input id="vel" type="number" value="" placeholder="velocidade em ms">
+    <button id="comecar" onclick="moverDown()">Iniciar</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
