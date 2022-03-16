@@ -1,4 +1,4 @@
-# anima-o_html01
+# animacao_html01
 Primeiro treino de animação com HTML e JS
 
 Por falta de tempo, o desenvolvimento desse pequeno projeto de treino não avançou a ponto de aperfeiçoar vários detalhes.
